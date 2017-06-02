@@ -38,6 +38,17 @@ All types of components can have another component of their own level or less
 * A Group can have an Element
 * A Group **Can't** have a wrapper
 
+# Folder Structure
+* ComponentType (Group)
+  * ComponentName
+    * index.js
+    * style.scss
+### Example:
+* Group
+  * InputField
+    * index.js
+    * style.js
+
 ## Definition of Term
 
 ### Element
@@ -59,4 +70,3 @@ A loading symbol can be used in an element as long as there isn't
 a duplicate element without a loading symbol.
 
 
-# Folder Structure
