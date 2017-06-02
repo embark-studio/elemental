@@ -1,4 +1,4 @@
-# Elemental Design and Development
+# Elemental Design and Development Guide
 
 ## Developers
 ### Quick Reference
