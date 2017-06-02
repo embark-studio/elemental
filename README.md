@@ -47,7 +47,7 @@ All types of components can have another component of their own level or less
 * groups
   * InputField
     * index.js
-    * style.js
+    * style.scss
 #### Note - Export all components in each component type with an index.js
 ## Definition of Term
 
