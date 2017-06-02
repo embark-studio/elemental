@@ -39,16 +39,16 @@ All types of components can have another component of their own level or less
 * A Group **Can't** have a wrapper
 
 # Folder Structure
-* ComponentType (Group)
+* component type (Group)
   * ComponentName
     * index.js
     * style.scss
 ### Example:
-* Group
+* groups
   * InputField
     * index.js
     * style.js
-
+#### Note - Export all components in each component type with an index.js
 ## Definition of Term
 
 ### Element
