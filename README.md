@@ -73,4 +73,4 @@ a duplicate element without a loading symbol.
 User experience design (UX, UXD, UED or XD) is the approach of using analytical tools to improve the mechanics of the interface.
 
 #### UI
-User interface design (UI) Graphical Aesthetics, is used to describe graphical or aesthetic changes that improve the interface.  
+User interface design (UI) is used to describe graphical or aesthetic changes that improve the interface.  
