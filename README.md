@@ -49,7 +49,7 @@ All types of components can have another component of their own level or less
     * index.js
     * style.scss
 #### Note - Export all components in each component type with an index.js
-## Definition of Term
+## Definition of Terms
 
 ### Element
 A single HTML Element
@@ -69,4 +69,8 @@ A single HTML Element
 A loading symbol can be used in an element as long as there isn't
 a duplicate element without a loading symbol.
 
+#### UX
+User experience design (UX, UXD, UED or XD) is the approach of using analytical tools to improve the mechanics of the interface.
 
+#### UI
+User interface design (UI) Graphical Aesthetics, is used to describe graphical or aesthetic changes that improve the interface.  
