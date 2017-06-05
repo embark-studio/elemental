@@ -23,12 +23,13 @@
 | :---------------  |:---------:| :---: | :---------:| :-----: | -----: |
 | Only 1 Element    |     X     |       |            |    X    |        | 
 | 2+  Elements      |           |   X   |      X     |         |    X   |
-| Simple UI         |     X     |   X   |            |         |        |
-| Complex UI        |           |       |      X     |    X    |    X   |
-| Complex UX        |           |       |      X     |    X    |    X   | 
+| UI Design         |     X     |   X   |      X     |         |        |
+| UX Design         |           |       |      X     |    X    |    X   | 
+| Data Flow         |           |       |      X     |    X    |    X   | 
 | URL Based Coices  |           |       |            |    X    |    X   |
 | Can Be Outer Most |           |       |            |         |    X   |
 
+### Note: Data Flow is how / when data is introduced to the component
 
 # Nesting Components:
 All types of components can have another component of their own level or less
@@ -74,3 +75,7 @@ User experience design (UX, UXD, UED or XD) is the approach of using analytical 
 
 #### UI
 User interface design (UI) is used to describe graphical or aesthetic changes that improve the interface.  
+
+#### Reasons for UX / UI breakdown
+Good design is not focused only on mechanics or function, and good design is not focused entirely on what is the most aesthetically pleasing, and good design is not focusing on mechanics and aesthetics at the same time. Good design is focusing on mechanics and aesthetics separately, at different times, but giving them equal attention. 
+This doesn't mean that in some way that can't drive one another, it just means that they are different things and what looks good won't always keep users, and what works well doesn't always draw in users, both areas must be addressed.
