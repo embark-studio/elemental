@@ -5,7 +5,7 @@
 
 |                 | Element   | Group | Templates  | Wrappers| Yields |
 | :-------------  |:---------:| :---: | :---------:| :-----: | -----: |
-| Only 1 Element  |     X     |       |            |    X    |        | 
+| Only 1 Element  |     X     |       |            |         |        | 
 | 2+  Elements    |           |   X   |      X     |         |    X   |
 | Functional      |     X     |   X   |            |         |        |
 | Class Based     |           |       |      X     |    X    |    X   |
@@ -21,7 +21,7 @@
 
 |                   | Element   | Group | Templates  | Wrappers| Yields |
 | :---------------  |:---------:| :---: | :---------:| :-----: | -----: |
-| Only 1 Element    |     X     |       |            |    X    |        | 
+| Only 1 Element    |     X     |       |            |         |        | 
 | 2+  Elements      |           |   X   |      X     |         |    X   |
 | UI Design         |     X     |   X   |      X     |         |        |
 | UX Design         |           |       |      X     |    X    |    X   | 
