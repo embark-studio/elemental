@@ -43,7 +43,7 @@ Example Breakdown
 * A Group can have a Group
 * A Group can have an Element
 * A Group **Can't** have a Template
-![example image](https://raw.githubusercontent.com/embark-studio/elemental/master/example.png)
+![example image](/example.png?raw=true)
 
 # Folder Structure
 * component type (Group)
