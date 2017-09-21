@@ -2,16 +2,19 @@
 
 ## Developers
 ### Quick Reference
+#### REMEMBER 
+#### Element < Group < Partials < Templates < Yields
+#### Smallest < Largest
 
-|                 | Element   | Group | Templates  | Wrappers| Yields |
-| :-------------  |:---------:| :---: | :---------:| :-----: | -----: |
-| Only 1 Element  |     X     |       |            |         |        | 
-| 2+  Elements    |           |   X   |      X     |         |    X   |
-| Functional      |     X     |   X   |            |         |        |
-| Class Based     |           |       |      X     |    X    |    X   |
-| Logic           |           |       |      X     |    X    |    X   | 
-| Routes          |           |       |            |    X    |    X   |
-| Can Be Top Most |           |       |            |         |    X   |
+|                 | Element   | Group | Partials | Templates | Yields |
+| :-------------  |:---------:| :---: | :-------:| :------:  | -----: |
+| Only 1 Element  |     X     |       |          |           |        | 
+| 2+  Elements    |           |   X   |     X    |           |    X   |
+| Functional      |     X     |   X   |          |           |        |
+| Class Based     |           |       |     X    |     X     |    X   |
+| Logic           |           |       |     X    |     X     |    X   | 
+| Routes          |           |       |          |     X     |    X   |
+| Can Be Top Most |           |       |          |           |    X   |
 
 
 
@@ -19,31 +22,35 @@
 ## Designers
 ### Quick Reference
 
-|                   | Element   | Group | Templates  | Wrappers| Yields |
-| :---------------  |:---------:| :---: | :---------:| :-----: | -----: |
-| Only 1 Element    |     X     |       |            |         |        | 
-| 2+  Elements      |           |   X   |      X     |         |    X   |
-| UI Design         |     X     |   X   |      X     |         |        |
-| UX Design         |           |       |      X     |    X    |    X   | 
-| Data Flow         |           |       |      X     |    X    |    X   | 
-| URL Based Coices  |           |       |            |    X    |    X   |
-| Can Be Outer Most |           |       |            |         |    X   |
+|                   | Element   | Group | Partials | Templates | Yields |
+| :---------------  |:---------:| :---: | :-------:| :------:  | -----: |
+| Only 1 Element    |     X     |       |          |           |        | 
+| 2+  Elements      |           |   X   |     X    |           |    X   |
+| UI Design         |     X     |   X   |     X    |           |        |
+| UX Design         |           |       |     X    |     X     |    X   | 
+| Data Flow         |           |       |     X    |     X     |    X   | 
+| URL Based Coices  |           |       |          |     X     |    X   |
+| Can Be Outer Most |           |       |          |           |    X   |
 
 ### Note: Data Flow is how / when data is introduced to the component
 
 # Nesting Components:
 All types of components can have another component of their own level or less
 
+Example Breakdown
+
 #### Example:
 * A Group can have a Group
 * A Group can have an Element
-* A Group **Can't** have a wrapper
+* A Group **Can't** have a Template
+![example image](https://raw.githubusercontent.com/embark-studio/elemental/master/example.png)
 
 # Folder Structure
 * component type (Group)
   * ComponentName
     * index.js
     * style.scss
+
 ### Example:
 * groups
   * InputField
@@ -51,6 +58,7 @@ All types of components can have another component of their own level or less
     * style.scss
 #### Note - Export all components in each component type with an index.js
 ## Definition of Terms
+
 
 ### Element
 A single HTML Element
@@ -67,8 +75,12 @@ A single HTML Element
 * An input group i.e. an input with a label
 
 ##### Caveats
+###### Loading Symbols
 A loading symbol can be used in an element as long as there isn't
 a duplicate element without a loading symbol.
+
+###### Elements That Require State
+It is more important that what appears to be a single element that requires state exists in the only location a single element may exist in
 
 #### UX
 User experience design (UX, UXD, UED or XD) is the approach of using analytical tools to improve the mechanics of the interface.
