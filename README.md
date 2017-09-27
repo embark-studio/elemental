@@ -6,15 +6,15 @@
 #### Element < Group < Partials < Templates < Yields
 #### Smallest < Largest
 
-|                 | Element   | Group | Partials | Templates | Yields |
-| :-------------  |:---------:| :---: | :-------:| :------:  | -----: |
-| Only 1 Element  |     X     |       |          |           |        | 
-| 2+  Elements    |           |   X   |     X    |           |    X   |
-| Functional      |     X     |   X   |          |           |        |
-| Class Based     |           |       |     X    |     X     |    X   |
-| Logic           |           |       |     X    |     X     |    X   | 
-| Routes          |           |       |          |     X     |    X   |
-| Can Be Top Most |           |       |          |           |    X   |
+|                 | Element   | Group | Partials | Templates | Wireframes |
+| :-------------  |:---------:| :---: | :-------:| :------:  | ---------: |
+| Only 1 Element  |     X     |       |          |           |            | 
+| 2+  Elements    |           |   X   |     X    |           |      X     |
+| Functional      |     X     |   X   |          |           |            |
+| Class Based     |           |       |     X    |     X     |      X     |
+| Logic           |           |       |     X    |     X     |      X     | 
+| Routes          |           |       |          |     X     |      X     |
+| Can Be Top Most |           |       |          |           |      X     |
 
 
 
@@ -22,15 +22,15 @@
 ## Designers
 ### Quick Reference
 
-|                   | Element   | Group | Partials | Templates | Yields |
-| :---------------  |:---------:| :---: | :-------:| :------:  | -----: |
-| Only 1 Element    |     X     |       |          |           |        | 
-| 2+  Elements      |           |   X   |     X    |           |    X   |
-| UI Design         |     X     |   X   |     X    |           |        |
-| UX Design         |           |       |     X    |     X     |    X   | 
-| Data Flow         |           |       |     X    |     X     |    X   | 
-| URL Based Coices  |           |       |          |     X     |    X   |
-| Can Be Outer Most |           |       |          |           |    X   |
+|                   | Element   | Group | Partials | Templates | Wireframes |
+| :---------------  |:---------:| :---: | :-------:| :------:  | ---------: |
+| Only 1 Element    |     X     |       |          |           |            | 
+| 2+  Elements      |           |   X   |     X    |           |      X     |
+| UI Design         |     X     |   X   |     X    |           |            |
+| UX Design         |           |       |     X    |     X     |      X     | 
+| Data Flow         |           |       |     X    |     X     |      X     | 
+| URL Based Coices  |           |       |          |     X     |      X     |
+| Can Be Outer Most |           |       |          |           |      X     |
 
 ### Note: Data Flow is how / when data is introduced to the component
 
