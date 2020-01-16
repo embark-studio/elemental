@@ -11,7 +11,7 @@
 | Only 1 Element  |     X     |       |          |           |         | 
 | 2+  Elements    |           |   X   |     X    |           |    X    |
 | Functional      |     X     |   X   |          |           |         |
-| Class Based     |           |       |     X    |     X     |    X    |
+| Class Based     |     X     |   X   |     X    |     X     |    X    |
 | Logic           |           |       |     X    |     X     |    X    | 
 | Routes          |           |       |          |     X     |    X    |
 | Can Be Top Most |           |       |          |           |    X    |
