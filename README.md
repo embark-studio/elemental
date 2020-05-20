@@ -28,7 +28,7 @@
 | 2+  Elements      |           |   X   |     X    |           |    X   |
 | UI Design         |     X     |   X   |     X    |           |        |
 | UX Design         |           |       |     X    |     X     |    X   | 
-| Data Flow         |           |       |     X    |     X     |    X   | 
+| External Data     |           |       |     X    |     X     |    X   | 
 | URL Based Coices  |           |       |          |     X     |    X   |
 | Can Be Outer Most |           |       |          |           |    X   |
 
@@ -80,7 +80,10 @@ A loading symbol can be used in an element as long as there isn't
 a duplicate element without a loading symbol.
 
 ###### Elements That Require State
-It is more important that what appears to be a single element that requires state exists in the only location a single element may exist in
+Elements that require state should be placed in the elements folder since it should only exist in one location.
+
+###### Appearance of type
+If it appears to be an element, as in it looks like 1 element, a drop down etc., but requires extra divs, it is still an element.
 
 #### UX
 User experience design (UX, UXD, UED or XD) is the approach of using analytical tools to improve the mechanics of the interface.
